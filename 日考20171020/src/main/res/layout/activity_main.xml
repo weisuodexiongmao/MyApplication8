@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.bawei.a20171020.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnIncrease"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="81dp"
+        android:text="+"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/btnIncrease"
+        android:layout_toEndOf="@+id/btnIncrease"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/btnDecrease"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/etAmount"
+        android:layout_toEndOf="@+id/etAmount"
+        android:text="-"
+        android:textSize="30sp" />
+</RelativeLayout>
